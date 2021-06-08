@@ -13,6 +13,7 @@ public class Unit3Task1 {
                 System.out.print(" ");
             }
         }
+        System.out.println();
         {
             for (int p = 0; p < mass.length; p++)
                 System.out.println(mass[p]);

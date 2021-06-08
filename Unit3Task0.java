@@ -6,9 +6,7 @@ public class Unit3Task0 {
         System.out.println("Вводим число");
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        int n;
-        int b = 0;
-        n = scanner.nextInt();
+        int n = scanner.nextInt();
         int mass[] = new int[n];
         for (int i = 0; i < n; i++) {
                 mass[i] = random.nextInt(50);

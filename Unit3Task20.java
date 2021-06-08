@@ -10,6 +10,9 @@ public class Unit3Task20 {
             System.out.print(arr[i] + " ");
         }
         int max = arr[0];
+        int temp = arr[0];
+        arr[0] = arr[max];
+        arr[max] = temp;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i] = 0;

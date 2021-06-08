@@ -13,16 +13,11 @@ public class Unit3Task14 {
         int min = arr[0];
 
         for (int o = 0; o < arr.length; o++) {
-            if (arr[o] % 2 != 1) {
+            if (arr[o] % 2 != 0 && arr[o] < min || min == 0) {
                 min = arr[o];
-            }
-            if (arr[o] < min) {
-                min = arr[o];
-                System.out.println();
-
-                System.out.println("минимальное число " + arr[o]);
-
             }
         }
+        System.out.println();
+        System.out.println("минимальное нечётное число " + min);
     }
 }
